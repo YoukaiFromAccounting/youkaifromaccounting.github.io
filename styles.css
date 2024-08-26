@@ -2,9 +2,15 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+    font-weight: 600; /* Makes headers a bit bolder */
 }
 
+p {
+    font-weight: 400; /* Keeps regular text at normal weight */
+}
 /* Container setup */
 .container {
     display: flex;
