@@ -36,8 +36,42 @@ body, html {
     margin: 5px 0;
 }
 
+/* Box style */
+.section {
+    border: 1px solid #ddd; 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; 
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
 
+/* Section headers */
+.section h2 {
+    margin-top: 0;
+    font-weight: 700;
+}
 
+.section + .section {
+    margin-top: 40px;
+}
+
+.about {
+    background-color: #f0f8ff;
+}
+
+.education {
+    background-color: #fffaf0;
+}
+
+.projects {
+    background-color: #f0fff0;
+}
+
+.contact {
+    background-color: #f8f0ff;
+}
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;
